@@ -50,3 +50,28 @@ console.log(guests.indexOf("John Doe"));
 
 // step-5 
 console.log(guests.length);
+
+
+// PROBLEM-5:Modify an Array of Colors 
+
+let colors = ["Red","Blue","Green"];
+
+// step -1
+colors.push("Yellow")
+
+console.log(colors);
+
+// step-2
+colors.shift();
+console.log(colors);
+
+// step-3 
+colors.unshift("Purple")
+console.log(colors);
+
+// step-4 
+
+console.log(colors.indexOf("Blue"));
+
+// step-5 
+console.log(colors.length);
