@@ -52,7 +52,7 @@ console.log(guests.indexOf("John Doe"));
 console.log(guests.length);
 
 
-// PROBLEM-5:Modify an Array of Colors 
+// PROBLEM-4:Modify an Array of Colors 
 
 let colors = ["Red","Blue","Green"];
 
