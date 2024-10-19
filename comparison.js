@@ -21,3 +21,25 @@ else if (score>=60 && score<70){
 else{
     console.log("Grade:F");
 }
+
+
+// PROBLEM-4:weather Check 
+
+let tempareture = 15;
+let isRaining = true;
+
+if (tempareture<0){
+    console.log("Wear-Heavy Jacket")
+}
+
+else if (tempareture>=0 && tempareture<=20 && isRaining == true){
+    console.log("Wear-Raincoat and Sweater");
+}
+
+else if (tempareture>=20  && isSunny == true){
+    console.log("Wear-T-shirt and Sunglass");
+}
+
+else{
+    console.log("Wear-Regular clothes");
+}
